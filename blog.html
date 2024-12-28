@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blogs</title>
+
+  <!-- External Font Frpm Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet">
+</head>
+
+<body>
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Page</title>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+        font-family: "Nunito Sans",Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+      }
+
+
+      .navbar{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    background-color: #316ebf;
+}
+
+.navbar ul{
+    color: black;
+    display: flex;
+    list-style: none;
+    gap: 3vw;
+}
+
+.navbar ul a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: white;
+    
+}
+
+/* navbar hover effects */
+.navbar h2:hover{
+    transform: scale(1.2);
+}
+
+.navbar ul a:hover{
+    padding: 6px;
+    background-color: rgb(70, 139, 236);
+    border-radius: 3px;
+}
+
+      h1{
+        background-color: #ad2e93;
+        color: white;
+        text-align: center;
+        padding: 1rem 0;
+        margin: 0;
+      }
+
+  
+
+      .blog-container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 10px;
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      .blog-post {
+        margin-bottom: 20px;
+      }
+
+      .blog-post h2 {
+        color: #333;
+        margin: 0 0 10px;
+      }
+
+      .blog-post p {
+        color: #555;
+        line-height: 1.6;
+      }
+
+      .read-more {
+        color: #007BFF;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+    /* for mobile screen */
+     
+    @media (max-width: 475px) {
+    body{
+        font-size: 16px;
+
+    } 
+    .navbar {
+        flex-direction: column;
+        padding: 1vw;
+        background-color: rgb(44, 231, 153);
+    }
+    .navbar h2{
+        color: #004aad;
+        margin: 10px;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        gap: 1vw;
+    }
+
+    .navbar ul li a:hover{
+        background-color: rgb(77, 239, 174);
+        color: white;
+    }
+  }
+    </style>
+  </head>
+
+  <body>
+    
+    <header>
+      <nav class="navbar">
+          <h2>Abbas Khan</h2>
+          <ul>
+              <li><a href="/index.html">Home</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="blog.html">Blogs</a></li>
+              <li><a href="about_us.html">About Us</a></li>
+              <li><a href="login.html">Sign In</a></li>
+          </ul>
+      </nav>
+  </header>
+
+      
+
+      <h1>Our Blog</h1>
+    
+    <div class="blog-container">
+      <div class="blog-post">
+        <h2>Unlocking Growth Through Process Optimization</h2>
+        <p>Many business Unknoingly waste time and resources on inefficients Processes. By analyzing
+          workflows and focus on what matters most delivring value o thier customers<a href="#" class="read-more">Read More</a></p>
+      </div>
+      <div class="blog-post">
+        <h2>Adapting to Market Trends</h2>
+        <p>Markets evolve rapidly, and businesses that fail to adapt often fall behind. A consultant can identify emerging trends, suggest innovative strategies, and ensure your business remains competitive in an ever-changing landscape.<a href="#" class="read-more">Read More</a></p>
+      </div>
+      
+      <!-- Add more blog posts as needed -->
+    </div>
+  </body>
+
+  </html>
+</body>
+
+</html>

@@ -1,0 +1,339 @@
+body{
+  font-family: "Nunito Sans" Arial, Helvetica, sans-serif;
+  background-image: url(login-page\ 2.jpg);
+  background-size: cover;
+}
+
+
+
+.container{
+ position: absolute;
+ top:30%;
+ left:50%;
+transform: translate(-50%, -25%);
+width: 40%;
+height: 75%;
+backdrop-filter: blur(20px);
+background-color: transparent;
+border-radius: 10px;
+border: 2px solid rgba(255, 255, 255, .2);
+box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+
+
+h1{
+  color: white;
+  text-align: center;
+  margin: 3%px 0px 0px 0px;
+}
+
+h1:hover{
+  transform: scale(1.1);
+}
+
+.alredy{
+  color: white;
+  padding-left: 29%;
+
+}
+
+#first-name{
+  margin-left: 16%;
+  padding: 7px 25px 7px 7px;
+  border-radius: 6px;
+}
+
+
+
+#last-name{
+  margin-left: 5%;
+  margin-bottom: 15px;
+  padding: 7px 25px 7px 7px;
+  border-radius: 6px;
+}
+
+#email-id{
+  margin-left: 16%;
+  padding: 7px 256px 7px 7px;
+  border-radius: 6px;
+}
+
+#password{
+  margin-left: 16%;
+  margin-top: 15px;
+  padding: 7px 256px 7px 7px;
+  border-radius: 6px;
+}
+
+#tick{
+  margin-left: 16%;
+  margin-top: 10px;
+  width: 19px;
+  height: 19px;
+}
+
+.agree{
+  display: flex;
+  align-items: center;
+}
+.register{
+  font-size: 16.5px;
+  margin: 1.4% 0% 0% 42%;
+  color: white;
+}
+
+#conditions{
+        margin-left: 4px;
+}
+
+.Create-Account{
+ margin: 3% 0% 0% 30%;
+ padding: 7px 55px 7px 55px;
+ border-radius: 6px;
+ font-size: 20px;
+}
+
+
+
+.social{
+  display: flex;
+}
+
+.g{
+  display: flex;
+  text-decoration: none;
+  color: black;
+}
+
+.g img{
+  margin-top: 18%;
+
+}
+
+
+.google{
+  display: flex;
+  align-items: center;
+  height: 38px;
+  margin: 4% 0% 0% 28%;
+  border-radius: 6px;
+  padding-right: 4%;
+}
+
+.google img{
+  width: 23px;
+  height: 23px;
+}
+
+.google p{
+  font-size: 17px;
+  margin-left:10%;
+}
+
+.apple{
+  display: flex;
+  align-items: center;
+  height: 38px;
+  margin: 4% 0% 0% 10%;
+  border-radius: 7px;
+  padding-right: 4%;
+}
+
+.apple img{
+  width: 25px;
+  height: 25px;
+}
+
+.apple p{
+  font-size: 17.5px;
+  margin-left:13%;
+}
+
+.a{
+  display: flex;
+  text-decoration: none;
+  color: black;
+}
+
+.a img{
+  margin-top: 19%;
+
+}
+
+
+
+
+/* new mobile screen */
+
+@media (max-width: 768px) {
+  body {
+    background-size: cover;
+    padding: 10px;
+  }
+
+  .container {
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+    width: 90%;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .alredy {
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 0;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 85%;
+    margin: 10px auto;
+    display: block;
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  #tick {
+    margin-left: 5%;
+  }
+
+  .agree {
+    font-size: 0.9rem;
+    margin: 10px 5%;
+  }
+
+  .Create-Account {
+    width: 85%;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 1.2rem;
+    display: block;
+  }
+
+  .register {
+    text-align: center;
+    font-size: 1rem;
+    margin: 20px 0;
+  }
+
+  .social {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .google,
+  .apple {
+    width: 85%;
+    margin: 10px 0;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .google p,
+  .apple p {
+    margin-left: 10px;
+    font-size: 1rem;
+  }
+
+  .g img,
+  .a img {
+    margin: 0;
+    width: 20px;
+    height: 20px;
+  }
+}
+
+
+
+/* For Mobile Screen */
+
+/* @media (max-width: 768px) {
+  body {
+    background-size: cover;
+    padding: 10px;
+  }
+
+  .container {
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+    width: 80%;
+    height: auto;
+    padding: 0px;
+    border-radius: 10px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .alredy {
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 0;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  Create-Account {
+    width: 70%;
+    margin: 10px auto;
+    display: block;
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  #tick {
+    margin-left: 5%;
+  }
+
+  .agree {
+    font-size: 0.9rem;
+    margin: 10px 5%;
+  }
+
+  .register {
+    text-align: center;
+    font-size: 1rem;
+    margin: 20px 0;
+  }
+
+  .social {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .google,
+  .apple {
+    width: 90%;
+    margin: 10px 0;
+    justify-content: center;
+  }
+
+  .google p,
+  .apple p {
+    margin-left: 10px;
+    font-size: 1rem;
+  }
+
+  .g img,
+  .a img {
+    margin: 0;
+    width: 20px;
+    height: 20px;
+  }
+} */
